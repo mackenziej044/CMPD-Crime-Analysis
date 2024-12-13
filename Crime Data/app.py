@@ -42,10 +42,10 @@ def import_data_from_csv(file_path):
     try:
         conn = get_db_connection()
         # Read the CSV file into a DataFrame
-        df = pd.read_csv(file_path)
+        df = pd.read_csv(file_path,low_memory=False)
         
         # Insert data into the cmpd_data table
-        df.to_sql('cmpd_data', conn, if_exists='append', index=False)
+        df.to_sql('cmpd_data', conn, if_exists='replace', index=False)
         print(f"Successfully imported {len(df)} records from {file_path}.")
         
     except FileNotFoundError:
@@ -63,7 +63,7 @@ def import_data_from_csv(file_path):
 import_data_from_csv('cmpd.csv')
 
 # Define a function to fetch data from the database
-def fetch_data(print_function):
+def fetch_data():
     conn = get_db_connection()
     crime_df = pd.read_sql_query('SELECT * FROM cmpd_data', conn)
     conn.close()
@@ -73,8 +73,11 @@ def fetch_data(print_function):
 @app.route('/data', methods=['GET'])
 def get_data():
     crime_df = fetch_data()
+    
+
     data = crime_df.to_dict(orient='records')
-    # return jsonify(data)
+    return jsonify(data)
 
 if __name__ == '__main__':
     app.run(debug=True)
+
