@@ -9,6 +9,8 @@ This project leverages machine learning and data analysis to uncover crime trend
 3. Present insights through an interactive dashboard or web application for law enforcement, community leaders, and policymakers.
 
 ---
+## Tableau Public
+Tableau Vizualizations uploaded to Tableau Public: https://public.tableau.com/shared/XTSJT9M73?:display_count=n&:origin=viz_share_link
 
 ## Dataset
 We are utilizing publicly available CMPD Crime Incident Data from the [Charlotte Open Data Portal](https://data.charlottenc.gov/datasets/charlotte%3A%3Acmpd-incidents-1/about?utm_source=chatgpt.com).
@@ -38,7 +40,7 @@ Police Division boundary coordinates from [Koordinates](https://koordinates.com/
 1. **Data Analysis**: Python (Pandas)
 2. **Machine Learning**: Scikit-learn
 3. **Database**: SQLite
-4. **Visualization**: Tableau or Flask with JavaScript (Leaflet.js or Plotly)
+4. **Visualization**: Tableau Public or Flask with JavaScript (Leaflet.js or Plotly)
 
 ---
 
@@ -99,6 +101,13 @@ Police Division boundary coordinates from [Koordinates](https://koordinates.com/
 1. Access the interactive dashboard via your local server (e.g., `http://127.0.0.1:5000`).
 2. Explore crime trends using filters such as time, location, or crime type.
 3. View predictive model results and insights for future trends.
+
+---
+## Machine Learning
+Description: XXXX
+Hyperlink:
+
+Report:
 
 ---
 
