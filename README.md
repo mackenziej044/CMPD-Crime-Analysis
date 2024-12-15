@@ -64,7 +64,7 @@ Police Division boundary coordinates from [Koordinates](https://koordinates.com/
 ---
 
 ## Deliverables
-1. **Predictive Model**: A trained machine learning model capable of forecasting crime trends.
+1. **Predictive Model**: A trained machine learning model capable of forecasting crime violent trends.
 2. **Interactive Dashboard/Web App**: A tool for exploring data trends and predictions.
 3. **Final Presentation**: Summary of findings, methodologies, and recommendations for community and policy improvement.
 
@@ -103,10 +103,9 @@ Police Division boundary coordinates from [Koordinates](https://koordinates.com/
 ---
 
 ## Team
-- [Team Member 1] - Role
-- [Team Member 2] - Role
-- [Team Member 3] - Role
-- [Team Member 4] - Role
+- [Kelly Brookshire] - Tableau Specialist
+- [Mackenzie Jarrett] - HTML and Backend
+- [Leonardo Francisco] - Machine Learning Model
 
 ---
 
