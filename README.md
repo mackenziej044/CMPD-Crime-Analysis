@@ -104,10 +104,13 @@ Police Division boundary coordinates from [Koordinates](https://koordinates.com/
 
 ---
 ## Machine Learning
-Description: XXXX
-Hyperlink:
+### Overview of the Model
+The SARIMA crime forecasting model was developed to predict monthly violent crime counts in Charlotte, NC, using historical data from 2017 to 2024. The primary goal of the model is to analyze crime trends and forecast crime counts for the next year (2024-2025) to aid decision-making by the Charlotte-Mecklenburg Police Department (CMPD) and other stakeholders.
+The model utilizes seasonality, trend analysis, and historical patterns to provide actionable insights. It was optimized iteratively to improve accuracy and performance metrics, ensuring it meets the project's requirements.
 
+Copy of full report with model analysis, optimization process, and result debrif are linked below:
 Report:
+https://github.com/mackenziej044/CMPD-Crime-Analysis/blob/4683b0ef84d58eae0d9bf8425f38040755955775/CMPD%20TIME%20SERIES%20DATA%20ANALYSIS/Crime%20Forecasting%20Model%20Report%20(1).pdf
 
 ---
 
